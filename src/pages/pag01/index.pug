@@ -4,12 +4,12 @@ block styles
 	link(rel="stylesheet", href="style.css")
 
 block body
-	body(prev-hide, next-hide, menu-hide)
+	body
 
 		header.wow.up
 			+image('logo.png', 'logo')
 		
-		section.sec1
+		section.sec1.up
 			.flex
 				+image('img01.png', 'img left')
 				.boxText.right
@@ -18,7 +18,7 @@ block body
 					p As lutas sociais, promovidas por diversos sujeitos coletivos, como movimentos populares e organizações da sociedade civil, geram condições políticas e sociais para novas conquistas democráticas. Um exemplo é o Estatuto da Criança e do Adolescente (ECA – Lei nº 8.069/1990), regulamentado pelo engajamento dessas organizações.
 		
 		section.sec2.up
-			p Vamos conhecer melhor esse assunto na interação abaixo:
+			p.up Vamos conhecer melhor esse assunto na interação abaixo:
 			.flex.up
 				+aba([
 					{
@@ -66,14 +66,14 @@ block body
 					},
 				])
 
-		section.sec3
+		section.sec3.up
 			.flex
 				+image('img07.png', 'img left')
 				.boxText.right
 					p Os direitos humanos nas agendas internacionais surgem da realidade concreta e complexa, expressando uma lógica política de interesse. Eles refletem uma interconexão entre o global e o local, fundamentais para políticas públicas e a promoção de uma cultura de respeito.
 					p Dessa forma, os direitos humanos são construções históricas, resultantes de conflitos e polaridades, afirmando a indivisibilidade e interdependência dos direitos. Ao invés de uma construção linear, essa é cíclica, desenvolvendo-se conforme contextos sociais e políticos.
 					
-		section.sec4
+		section.sec4.up
 			.flex
 				.boxText.left
 					h1 Desigualdade, Racismo Estrutural e a Luta por Direitos Humanos
@@ -81,7 +81,7 @@ block body
 					p Os direitos humanos devem ser vistos como processos que abrem e consolidam espaços de luta pela dignidade humana. A crítica das desigualdades históricas torna-se central, e a fragilidade da resposta estatal na estruturação de políticas públicas democráticas evidencia a necessidade de ação coletiva.
 				+image('img08.png', 'img right')
 		
-		section.sec5
+		section.sec5.down
 			h2 Abaixo, clique nos botões para conhecer mais sobre a aplicabilidade dos direitos humanos atualmente:
 			.flex
 				.flexButton.up(data-modal="#pop1")
@@ -124,12 +124,12 @@ block body
 					p.pTitle Direito internacional
 					p Os desafios contemporâneos demandam reconhecer a centralidade das pessoas na sociedade, valorizando a diversidade e a universalização de direitos em contextos desiguais. A Conferência Mundial sobre Direitos Humanos em Viena, em 1993, reafirmou a universalidade dos direitos humanos, estabelecendo sua aplicabilidade a todas as pessoas, sem exceção.
 
-		section.sec6
+		section.sec6.up
 			.box.up
 				p.pTitle O que significa um giro decolonial?
 				p O "giro decolonial" é um movimento intelectual que questiona as estruturas de poder e conhecimento impostas pelo colonialismo e a modernidade ocidental. Ele propõe um afastamento das epistemologias eurocêntricas e valoriza os conhecimentos marginalizados. Associado ao projeto Modernidade/Colonialidade, tem como principais teóricos Aníbal Quijano, Walter Mignolo e Enrique Dussel. Mignolo é frequentemente creditado por popularizar o termo, que reflete um esforço coletivo para superar as heranças coloniais.
 		
-		section.sec7
+		section.sec7.completeScorm.up
 			h2.up Conferência Mundial sobre Direitos Humanos
 			p.up.text A Conferência Mundial sobre Direitos Humanos, realizada em Viena em 1993, foi um evento marcante na história dos direitos humanos, reafirmando e ampliando a concepção contemporânea desses direitos. Aqui estão os principais pontos que explicam essa concepção de acordo com a Conferência de Viena:
 			.container-accordeon.up
